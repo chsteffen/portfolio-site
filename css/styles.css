@@ -17,30 +17,12 @@ body {
 #carousel-example-generic {
 	padding-top: 53px;
 }
-.carousel-caption p {
-	font-size: 3em;
-	ffont-family: 'Pontano Sans', sans-serif;
-}
-p.subhead {
-	margin: 20%;
-	color: #800080;
-}
-p.subtext {
-	margin-bottom: 50%;
-	color: #4a4a4a;
-}
-p.sub {
-	margin: 30% 65% 60%;
-	color: #00cdcd;
-}
+
 #columns {
-	background: #f7f7f7;
-	opacity: 0.6;
 	margin: 20px 0 0;
+	font-family: 'Pontano Sans', sans-serif;
 }
-#apple {
-	padding: 20px;
-}
+
 #image4 {
 	height: auto;
 }
@@ -50,19 +32,16 @@ p.sub {
 .btn {
 	margin: 0 20px 10px;
 }
-@media (max-width: 767px) {
-	p.subhead,
-	p.subtext,
-	p.sub {
-			display: none !important;
-	}
-}
 .caption p {
 	font-size: 1.5em;
 	font-family: 'Pontano Sans', sans-serif;
 	text-align: center;
 	position: relative;
 	display: block !important;
+}
+ul#skill-list > li {
+	font-family: 'Pontano Sans', sans-serif;
+	font-size: 16px;
 }
 /***work***/
 .work-img {
@@ -91,20 +70,18 @@ p.sub {
 #about {
 	background-color: #42e5f4;
 	width: auto;
-	background-repeat: no-repeat;
 	padding-bottom: 20px;
 }
-.grouping {
-	width: 100%;
+#story {
+	display: block;
+	margin: auto;
+	width: 60%;
 }
-.grouping p {
-	margin: 20px;
-	text-align: center;
-}
+
 .header h1 {
 	text-align: center;
-	border: 5px solid white;
-	margin: 10% 30px 20px;
+	margin: 20px;
+	font-style: bold;
 }
 img {
 	max-width: 100%;
@@ -117,50 +94,41 @@ img {
 @media (max-width: 480px) {
 	body.about {
 		background-image: none !important;
-		background-color: #e3e3e3;
+		background-color: #42e5f4;
 	}
 }
-.main_text h3 {
-	margin-top: 10%;
-	padding: 10px;
-}
-.main_text p {
-	clear: both;
-	margin-bottom: 20px;
+#linkedin {
+	display: block;
+	margin: auto;
+	width: 60%;
+	font-style: bold;
 }
 
 /*About typography*/
 
 .header h1 {
 	font-family: 'Pontano Sans', sans-serif;
-	font-size: 60px;
+	font-size: 40px;
 }
 .header h3 {
 	font-family: 'Pontano Sans', sans-serif;
-	font-size: 25px;
+	font-size: 30px;
 }
 #about {
 	font-family: 'Pontano Sans', sans-serif;
-	color: #666666;
-	font-size: 28px;
+	color: #000000;
+	font-size: 18px;
 	-webkit-margin-before: 0;
 }
-ul#skill-list > li {
+.main_text h3 {
 	font-family: 'Pontano Sans', sans-serif;
-	font-size: 25px;
-}
-#about h3 {
-	font-family: 'Pontano Sans', sans-serif;
+	font-size: 30px;
 	text-align: center;
-	font-size: 50px;
 }
 .main_text p {
-	text-align: center;
-	font-size: 25px;
-	font-weight: 200;
+	font-size: 18px;
 	font-family: 'Pontano Sans', sans-serif;
 }
-
 /*** contact ***/
 
 #contact {
@@ -225,6 +193,12 @@ span.glyphicon:hover {
 .panel-body {
 	font-family: 'Pontano Sans', sans-serif;
 	text-decoration: none;
+}
+
+/*resume*/
+#resume {
+	height: 400px;
+	width: 100%;
 }
 
 /*footer*/
