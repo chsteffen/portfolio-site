@@ -13,19 +13,7 @@
   js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));
-//map
-function initMap() {
-	var myLatLng = {lat: 37.7422688, lng: -122.4731864};
-	var map = new google.maps.Map(document.getElementById('map'), {
-		zoom: 16,
-		center: myLatLng
-	});
-	var marker = new google.maps.Marker({
-		position: myLatLng,
-		map: map,
-		title: 'Hello and Welcome'
-	});
-}
+
 $(document).ready(function(){
 //Navbar
 	$("#navbar").css("background-color", "#f0f8ff");

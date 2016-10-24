@@ -19,7 +19,7 @@ body {
 }
 .carousel-caption p {
 	font-size: 3em;
-	font-family: verdana, tahoma, helvetica, sans-serif;
+	ffont-family: 'Pontano Sans', sans-serif;
 }
 p.subhead {
 	margin: 20%;
@@ -59,7 +59,7 @@ p.sub {
 }
 .caption p {
 	font-size: 1.5em;
-	font-family: Verdana, tahoma, arial, sans-serif;
+	font-family: 'Pontano Sans', sans-serif;
 	text-align: center;
 	position: relative;
 	display: block !important;
@@ -76,8 +76,7 @@ p.sub {
 	top: 15%;
 	left: 22%;
 	color: #fff;
-	font-family: Verdana;
-	text-transform: Uppercase;
+	font-family: 'Pontano Sans', sans-serif;
 	font-weight: 700;
 	letter-spacing: 0.5em;
 	line-height: 1.6;
@@ -90,9 +89,7 @@ p.sub {
 /**** About ****/
 
 #about {
-	background-image: url("../img/nowhere.jpg");
-	background-attachment: fixed;
-	background-size: cover;
+	background-color: #42e5f4;
 	width: auto;
 	background-repeat: no-repeat;
 	padding-bottom: 20px;
@@ -135,25 +132,25 @@ img {
 /*About typography*/
 
 .header h1 {
-	font-family: 'Poiret One', Geneva, verdana, Helvetica, Arial, sans-serif;
+	font-family: 'Pontano Sans', sans-serif;
 	font-size: 60px;
 }
 .header h3 {
-	font-family: 'Poiret One', Geneva, verdana, Helvetica, Arial, sans-serif;
+	font-family: 'Pontano Sans', sans-serif;
 	font-size: 25px;
 }
 #about {
-	font-family: 'Antic', Helvetica, Arial, sans-serif;
+	font-family: 'Pontano Sans', sans-serif;
 	color: #666666;
 	font-size: 28px;
 	-webkit-margin-before: 0;
 }
 ul#skill-list > li {
-	font-family: 'Antic' Tahoma, Helvetica, Arial, sans-serif;
+	font-family: 'Pontano Sans', sans-serif;
 	font-size: 25px;
 }
 #about h3 {
-	font-family: 'Poiret One', Helvetica, Arial, sans-serif;
+	font-family: 'Pontano Sans', sans-serif;
 	text-align: center;
 	font-size: 50px;
 }
@@ -161,25 +158,22 @@ ul#skill-list > li {
 	text-align: center;
 	font-size: 25px;
 	font-weight: 200;
-	font-family: 'Antic', tahoma, Helvetica, verdana, sans-serif;
+	font-family: 'Pontano Sans', sans-serif;
 }
 
 /*** contact ***/
 
 #contact {
-	background-image: url("../img/connect.jpg");
-	background-attachment: fixed;
-	background-size: cover;
 	width: 100%;
 	color: black;
 	padding-top: 50px;
 	text-align: left;
-	font-family: courier, helvetica, arial, sans-serif;
+	font-family: 'Pontano Sans', sans-serif;
 }
 #information {
 	text-align: center;
 	display: inline;
-	font-family: Courier, helvetica, arial, sans-serif;
+	font-family: 'Pontano Sans', sans-serif;
 	font-size: 1em;
 } 
 span.glyphicon:hover {
@@ -199,7 +193,7 @@ span.glyphicon:hover {
 #form {
 	margin: 10px;
 	position: relative;
-	font-family: verdana, arial, sans-serif;
+	font-family: 'Pontano Sans', sans-serif;
 	text-transform: uppercase;
 }
 
@@ -223,20 +217,14 @@ span.glyphicon:hover {
 	background-color: #c2d6df;
 }
 .panel-title {
-	font-family: verdana, helvetica, tahoma, sans-serif;
+	font-family: 'Pontano Sans', sans-serif;
 }
 .panel-heading {
 	background-color: #c2d6df;
 }
 .panel-body {
-	font-family: tahoma, verdana, helvetica, sans-serif;
+	font-family: 'Pontano Sans', sans-serif;
 	text-decoration: none;
-}
-
-/*map*/
-#map {
-	height: 400px;
-	width: 100%;
 }
 
 /*footer*/
