@@ -1,0 +1,252 @@
+/*Navbar*/
+
+body {
+	position: relative;
+}
+.CS {
+	padding: 10px;
+}
+.anchor {
+	padding-top: 10px
+}
+.mail:visited {
+	color: #38eeff;
+}
+/*** Main text ***/
+
+#carousel-example-generic {
+	padding-top: 53px;
+}
+.carousel-caption p {
+	font-size: 3em;
+	font-family: verdana, tahoma, helvetica, sans-serif;
+}
+p.subhead {
+	margin: 20%;
+	color: #800080;
+}
+p.subtext {
+	margin-bottom: 50%;
+	color: #4a4a4a;
+}
+p.sub {
+	margin: 30% 65% 60%;
+	color: #00cdcd;
+}
+#columns {
+	background: #f7f7f7;
+	opacity: 0.6;
+	margin: 20px 0 0;
+}
+#apple {
+	padding: 20px;
+}
+#image4 {
+	height: auto;
+}
+#image7 {
+	height: auto;
+}
+.btn {
+	margin: 0 20px 10px;
+}
+@media (max-width: 767px) {
+	p.subhead,
+	p.subtext,
+	p.sub {
+			display: none !important;
+	}
+}
+.caption p {
+	font-size: 1.5em;
+	font-family: Verdana, tahoma, arial, sans-serif;
+	text-align: center;
+	position: relative;
+	display: block !important;
+}
+/***work***/
+.work-img {
+	display: block;
+	margin: auto;
+	max-width: 200px;
+	position: relative;
+}
+.info {
+	position: absolute;
+	top: 15%;
+	left: 22%;
+	color: #fff;
+	font-family: Verdana;
+	text-transform: Uppercase;
+	font-weight: 700;
+	letter-spacing: 0.5em;
+	line-height: 1.6;
+	display: none;
+}
+.proj-title {
+	font-weight: 100;
+}
+
+/**** About ****/
+
+#about {
+	background-image: url("../img/nowhere.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	width: auto;
+	background-repeat: no-repeat;
+	padding-bottom: 20px;
+}
+.grouping {
+	width: 100%;
+}
+.grouping p {
+	margin: 20px;
+	text-align: center;
+}
+.header h1 {
+	text-align: center;
+	border: 5px solid white;
+	margin: 10% 30px 20px;
+}
+img {
+	max-width: 100%;
+}
+@media (max-width: 767px) {
+	.container-fluid p {
+		display: none !important;
+	}
+}
+@media (max-width: 480px) {
+	body.about {
+		background-image: none !important;
+		background-color: #e3e3e3;
+	}
+}
+.main_text h3 {
+	margin-top: 10%;
+	padding: 10px;
+}
+.main_text p {
+	clear: both;
+	margin-bottom: 20px;
+}
+
+/*About typography*/
+
+.header h1 {
+	font-family: 'Poiret One', Geneva, verdana, Helvetica, Arial, sans-serif;
+	font-size: 60px;
+}
+.header h3 {
+	font-family: 'Poiret One', Geneva, verdana, Helvetica, Arial, sans-serif;
+	font-size: 25px;
+}
+#about {
+	font-family: 'Antic', Helvetica, Arial, sans-serif;
+	color: #666666;
+	font-size: 28px;
+	-webkit-margin-before: 0;
+}
+ul#skill-list > li {
+	font-family: 'Antic' Tahoma, Helvetica, Arial, sans-serif;
+	font-size: 25px;
+}
+#about h3 {
+	font-family: 'Poiret One', Helvetica, Arial, sans-serif;
+	text-align: center;
+	font-size: 50px;
+}
+.main_text p {
+	text-align: center;
+	font-size: 25px;
+	font-weight: 200;
+	font-family: 'Antic', tahoma, Helvetica, verdana, sans-serif;
+}
+
+/*** contact ***/
+
+#contact {
+	background-image: url("../img/connect.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	width: 100%;
+	color: black;
+	padding-top: 50px;
+	text-align: left;
+	font-family: courier, helvetica, arial, sans-serif;
+}
+#information {
+	text-align: center;
+	display: inline;
+	font-family: Courier, helvetica, arial, sans-serif;
+	font-size: 1em;
+} 
+span.glyphicon:hover {
+	background-color: white;
+}
+.contact h1 {
+	color: #383838;
+}
+
+/** form **/
+
+#phone,
+#name {
+	margin-bottom: 10px;
+	width: 100%;
+}
+#form {
+	margin: 10px;
+	position: relative;
+	font-family: verdana, arial, sans-serif;
+	text-transform: uppercase;
+}
+
+/*Learn More*/
+
+.learn-more {
+	text-align: left;
+	float: left;
+	padding-left: 15px;
+}
+.modal-button {
+	float: right;
+	padding: 15px;
+}
+#resume {
+	height: 500px;
+	width: 100%;
+	padding: 10px;
+}
+.top {
+	background-color: #c2d6df;
+}
+.panel-title {
+	font-family: verdana, helvetica, tahoma, sans-serif;
+}
+.panel-heading {
+	background-color: #c2d6df;
+}
+.panel-body {
+	font-family: tahoma, verdana, helvetica, sans-serif;
+	text-decoration: none;
+}
+
+/*map*/
+#map {
+	height: 400px;
+	width: 100%;
+}
+
+/*footer*/
+
+.twitter-follow-button {
+	margin: 10px;
+	float: right;
+}
+.fb-like {
+	margin: 10px;
+	position: relative;
+	left: 50%;
+}
