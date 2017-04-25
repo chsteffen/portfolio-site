@@ -10,6 +10,22 @@ body {
 .hero-image {
 	/* the image used */
 	background-image: url("/bay_bridge.jpg");
+	height: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;	
+
+}
+
+/* the hero text */
+.hero-text {
+	text-align: center;
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: black;
 }
 
 .CS {
@@ -23,36 +39,15 @@ body {
 }
 /*** Main text ***/
 
-#carousel-example-generic {
-	padding-top: 53px;
-}
-
-#image4 {
-	height: auto;
-}
-#image7 {
-	height: auto;
-}
 .btn {
 	margin: 0 20px 10px;
-}
-.caption p {
-	font-size: 1.5em;
-	text-align: center;
-	position: relative;
-	display: block !important;
-}
-
-ul#skill-list > li {
-	font-size: 16px;
 }
 
 /**** About ****/
 
 #about {
-	background-color: #5190ba;
 	width: auto;
-	padding-bottom: 20px;
+	height: 50px;
 }
 #story {
 	display: block;
@@ -88,7 +83,7 @@ img {
 #picture {
 	display: block;
 	margin: auto;
-	padding: 10px;
+	padding-top: 100px;
 }
 
 /*About typography*/
