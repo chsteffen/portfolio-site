@@ -1,9 +1,17 @@
 /*Navbar*/
 
 body {
+	height: 100%;
 	position: relative;
 	font-family: 'Pontano Sans', sans-serif;
 }
+
+/* the hero image */
+.hero-image {
+	/* the image used */
+	background-image: url("/bay_bridge.jpg");
+}
+
 .CS {
 	padding: 10px;
 }
@@ -34,26 +42,9 @@ body {
 	position: relative;
 	display: block !important;
 }
+
 ul#skill-list > li {
 	font-size: 16px;
-}
-/***work***/
-.work-img {
-	display: block;
-	margin: auto;
-	max-width: 200px;
-	position: relative;
-}
-.info {
-	position: absolute;
-	top: 15%;
-	left: 22%;
-	color: #000000;
-	line-height: 1.6;
-	display: none;
-}
-.proj-title {
-	font-weight: 100;
 }
 
 /**** About ****/
@@ -165,7 +156,6 @@ span.glyphicon:hover {
 	padding: 15px;
 }
 #resume {
-	height: 500px;
 	width: 100%;
 	padding: 10px;
 }
@@ -177,12 +167,6 @@ span.glyphicon:hover {
 }
 .panel-body {
 	text-decoration: none;
-}
-
-/*resume*/
-#resume {
-	height: 400px;
-	width: 100%;
 }
 
 /*footer*/
